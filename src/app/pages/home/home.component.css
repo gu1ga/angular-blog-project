@@ -1,0 +1,14 @@
+.contaienr_articles{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articles_others{
+    height: 50px;
+}
+
+header {
+    margin-top: 0.5rem;
+}
