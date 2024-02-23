@@ -1,7 +1,11 @@
-<div class="container_big-card">
+<div 
+class="container_big-card"
+[ngStyle]="{'width': width, 'height': height, 'background-color': backgroundColor}"
+>
 
     <div class="big-card_image">
         <img 
+        [ngStyle]="{'width': imageWidth, 'min-wdith': imageMinWidth, 'height': imageHeight}"
         src= {{imageCoverUrl}}
         alt="article-image"
         >
@@ -9,19 +13,29 @@
     </div>
         
     <div class="big-card_date">
-        <h4>{{cardDate}}</h4>
+        <h4
+        [ngStyle]="{'background-color': backgroundColor, 'color': dateFontColor}"
+        >{{cardDate}}</h4>
 
     </div>
 
     <div class="big-card_title">
-        <h1><a href="#">{{cardTitle}}</a></h1>
+        <h1
+        [ngStyle]="{'background-color': backgroundColor}"
+        ><a 
+            [ngStyle]="{'background-color': backgroundColor,'color': titleFontColor}"
+            href="#">{{cardTitle}}</a></h1>
 
 
     </div>
 
     <div class="big-card_description">
-        <p>
-            <a href = "#">{{cardDescription}}</a>
+        <p
+        [ngStyle]="{'background-color': backgroundColor, 'color': descriptionFontColor}"
+        >
+            <a 
+            [ngStyle]="{'background-color': backgroundColor}"
+            href = "#">{{cardDescription}}</a>
         </p>
 
 </div>

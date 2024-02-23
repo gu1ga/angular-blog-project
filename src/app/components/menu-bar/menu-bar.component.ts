@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-bar.component.css']
 })
 export class MenuBarComponent implements OnInit {
+
+  @Input()
+  linkedinLink: string = ""
+  @Input()
+  githubLink: string = ""
+  @Input()
+  youtubeLink: string = ""
+
   
   constructor() { }
 

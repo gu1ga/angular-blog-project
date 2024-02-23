@@ -1,42 +1,109 @@
 
 <header>
-    <app-menu-bar></app-menu-bar>
+    <app-menu-bar
+    linkedinLink="https://www.linkedin.com/in/guilherme-m-gomes/"
+    githubLink="https://github.com/gu1ga"
+    youtubeLink="https://www.youtube.com/@lokospemusic"
+    ></app-menu-bar>
+    <app-menu-title></app-menu-title>
 </header>
 
-<app-menu-title></app-menu-title>
-<div class="contaienr_articles">
-    <div class="articles_main">
+
+<section class = "hightlights">
+
+    <div class="contaienr_articles">
+        <div class="articles_main">
+    
+            <app-big-card 
+            imageCoverUrl="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2021/08/john-mayer-guitarrista-foto-palco.jpg"
+            cardDate="21 de Fevereiro de 2024"
+            cardTitle="John Mayer lança nova música e faz sucesso no espaço-tempo"
+            cardDescription= 'Depois do sucesso de "Gravity", o  cantor e guitarrista resolveu se aprofundar mais na física e lança o novo hit "Relativity" Feat. Einstein...'></app-big-card>
+    
+        </div>
+    
+        <div class="articles_others">
+    
+            <app-small-card
+            imageCoverUrl = "https://conteudo.imguol.com.br/blogs/107/files/2014/04/stevieray.jpg"
+            cardDate="20 de Fevereiro de 2024"
+            cardTile="Stevie Ray Vaughan nunca gostou de blues"
+            ></app-small-card>
+    
+            <app-small-card
+            imageCoverUrl = "https://magazyngitarzysta.pl/i/images/8/5/3/dz03NTA=_src_71853-git346.jpgh.jpgrait_poziom.jpg"
+            cardDate="19 de Fevereiro de 2024"
+            cardTile='Joe Satriani dará vida a "Hitman" em nova série'
+            ></app-small-card>
+    
+            <app-small-card
+            imageCoverUrl = "https://www.everyonelovesguitar.com/wp-content/uploads/2020/03/660.5JamesDuke.jpg"
+            cardDate="18 de Fevereiro de 2024"
+            cardTile="James Duke abandona o reverb e o delay"
+            ></app-small-card>
+    
+    
+    
+        </div>
+    
+    </div>
+
+</section>
+
+<section class = "bottom-layout">
+    <div class="container_bottom-title">
+        <h1> Se liga nos equipamentos... </h1>
+    </div>
+    
+    
+    <div class="container_articles-bottom">
 
         <app-big-card 
-        imageCoverUrl="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2021/08/john-mayer-guitarrista-foto-palco.jpg"
-        cardDate="21 de Fevereiro de 2024"
-        cardTitle="John Mayer lança nova música e faz sucesso no espaço-tempo"
-        cardDescription= 'Depois do sucesso de "Gravity", o  cantor e guitarrista resolveu se aprofundar mais na física e lança o novo hit "Relativity" Feat. Einstein...'></app-big-card>
+            width="200px"
+            imageMinWidth="200px"
+            imageHeight="200px"
+            backgroundColor="white"
+            titleFontColor="#17181c"
+            imageCoverUrl="https://http2.mlstatic.com/D_NQ_NP_896131-MLB50929290628_072022-O.webp"
+            cardDate="17 de Fevereiro de 2024"
+            cardTitle="Zoom 505 ultrapssa Quad Cortex em vendas"
+            cardDescription= 'Utilizada pelos maiores artistas do mundo, a pedaleira lendária promete timbres vintage.'></app-big-card>
+    
+            <app-big-card 
+            width="200px"
+            imageMinWidth="200px"
+            imageHeight="200px"
+            backgroundColor="white"
+            titleFontColor="#17181c"
+            imageCoverUrl="https://cdn.mos.cms.futurecdn.net/xaRnTxb7FCCDMrXEfhXN6c.jpg"
+            cardDate="16 de Fevereiro de 2024"
+            cardTitle="Fractal FM3 está entre as pedaleiras mais baratas do mercado"
+            cardDescription= 'Em queda de preços histórica, amp modeler está cada vez mais barato.'></app-big-card>
+    
+
+            <app-big-card 
+            width="200px"
+            imageMinWidth="200px"
+            imageHeight="200px"
+            backgroundColor="white"
+            titleFontColor="#17181c"
+            imageCoverUrl="https://guitarload.com.br/wp-content/uploads/2020/03/guitarra-les-paul-gibson-1.jpg"
+            cardDate="15 de Fevereiro de 2024"
+            cardTitle='Fender lança novo modelo estilo "Les Paul"'
+            cardDescription= 'Em design inédito, fender lança novo modelo de guitarra.'></app-big-card>
+    
+            <app-big-card 
+            width="200px"
+            imageMinWidth="200px"
+            imageHeight="200px"
+            backgroundColor="white"
+            titleFontColor="#17181c"
+            imageCoverUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnt-T17zCnWfTDAXnerBCdJtZkWhGHhQv3klg-hJEL6aTEgxgymPWQ89WciUuFJ4ue3g&usqp=CAU"
+            cardDate="14 de Fevereiro de 2024"
+            cardTitle='"Amplficadores valvulados não soam melhor", diz pesquisa'
+            cardDescription= 'Ciêntistas afiram que a percepção é de som melhor é psicológica'></app-big-card>
+    
 
     </div>
 
-    <div class="articles_others">
-
-        <app-small-card
-        imageCoverUrl = "https://conteudo.imguol.com.br/blogs/107/files/2014/04/stevieray.jpg"
-        cardDate="20 de Fevereiro de 2024"
-        cardTile="Stevie Ray Vaughan ressucita dos mortos."
-        ></app-small-card>
-
-        <app-small-card
-        imageCoverUrl = "https://magazyngitarzysta.pl/i/images/8/5/3/dz03NTA=_src_71853-git346.jpgh.jpgrait_poziom.jpg"
-        cardDate="19 de Fevereiro de 2024"
-        cardTile='Joe Satriani dará vida a "Hitman" em nova série.'
-        ></app-small-card>
-
-        <app-small-card
-        imageCoverUrl = "https://www.everyonelovesguitar.com/wp-content/uploads/2020/03/660.5JamesDuke.jpg"
-        cardDate="18 de Fevereiro de 2024"
-        cardTile="James Duke abandona o reverb e o delay."
-        ></app-small-card>
-
-
-
-    </div>
-
-</div>
+</section>

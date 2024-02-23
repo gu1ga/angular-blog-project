@@ -1,3 +1,3 @@
 # AngularBlog
 
-A blog project created with angular based on a [DIO](web.dio.me) bootcamp.
+A blog project created with angular based on a [DIO](https://www.dio.me) bootcamp.
