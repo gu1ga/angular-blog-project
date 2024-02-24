@@ -10,9 +10,9 @@ import { fakeData } from '../../data/fakeData'
 export class ContentComponent implements OnInit {
 
   imageCover: string = ""
-  contentDate: string = "22 de Fevereiro de 2024"
-  contentTitle: string = "Minha Notícia"
-  contentDescription: string = "Olá Mundo"
+  contentDate: string = ""
+  contentTitle: string = ""
+  contentDescription: string = ""
   private id: string | null = "0"
 
   constructor(

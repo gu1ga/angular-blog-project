@@ -30,7 +30,7 @@
     width: 500px;
     height: 300px;
     object-fit:cover;
-    border: 1px solid grey;
+    border: 5px solid #1a1a1a;
     border-radius: 5px;
 }
 
@@ -48,5 +48,6 @@
 
 .content_description > p{
     color: rgb(185, 185, 185);
+    white-space: pre-line;
 } 
 
