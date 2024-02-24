@@ -49,5 +49,7 @@
 .content_description > p{
     color: rgb(185, 185, 185);
     white-space: pre-line;
+    margin-right: 2rem;
+    margin-left: 2rem;
 } 
 

@@ -41,7 +41,7 @@ export const fakeData = [
 
     {
         "id": "6",
-        "image": "https://http2.mlstatic.com/D_NQ_NP_913611-MLB70988845788_082023-O.webp",
+        "image": "https://magarticles.magzter.com/articles/6239/559969/5fbf617103a5a/FRACTAL-FM3-AMP-MODELLERFX-PROCESSOR-1266.jpg",
         "title": 'Preços nunca antes vistos pára Fractal FM3',
         "date": "16 de Fevereiro de 2024",
         "description": "Donec in consectetur metus. Quisque auctor diam a hendrerit pulvinar. Morbi volutpat magna diam, pretium tincidunt felis tristique non. Donec ultricies molestie magna eu venenatis. Aliquam vitae elit at tellus cursus placerat. Proin sit amet augue ex. In dapibus enim ac venenatis vulputate. Donec a augue id eros viverra venenatis eget nec ante. In hac habitasse platea dictumst. Nullam quis ligula lorem. Curabitur aliquam risus non ipsum hendrerit tristique. Sed eu dapibus dui, at ultrices felis."
