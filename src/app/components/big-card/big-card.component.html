@@ -24,7 +24,7 @@ class="container_big-card"
         [ngStyle]="{'background-color': backgroundColor}"
         ><a 
             [ngStyle]="{'background-color': backgroundColor,'color': titleFontColor}"
-            href="#">{{cardTitle}}</a></h1>
+           [routerLink]="['content', id]">{{cardTitle}}</a></h1>
 
 
     </div>
@@ -35,7 +35,7 @@ class="container_big-card"
         >
             <a 
             [ngStyle]="{'background-color': backgroundColor}"
-            href = "#">{{cardDescription}}</a>
+            [routerLink]="['content', id]">{{cardDescription}}</a>
         </p>
 
 </div>

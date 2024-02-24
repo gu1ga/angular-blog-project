@@ -1,7 +1,7 @@
 .menu-title-container{
     color: rgb(68, 15, 15);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    width: 100%;
 }
 
 .menu-title-container > h1{

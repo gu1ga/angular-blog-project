@@ -46,6 +46,9 @@ export class BigCardComponent implements OnInit {
   @Input()
   descriptionFontColor = "grey"
 
+  @Input()
+  id: string = "0"
+
   constructor() { }
 
   ngOnInit(): void {

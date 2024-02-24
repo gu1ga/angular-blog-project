@@ -9,10 +9,15 @@ export class SmallCardComponent implements OnInit {
 
   @Input()
   imageCoverUrl: string = ""
+  
   @Input()
   cardDate: string = ""
+  
   @Input()
   cardTile: string = ""
+
+  @Input()
+  id: string = "0"
 
   constructor() { }
 
